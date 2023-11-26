@@ -1,0 +1,18 @@
+// settingフォルダの変数を読み込みます
+
+@use "../setting" as *;
+
+// メディアクエリ用mixin
+// タブレットサイズ
+@mixin tab($min-width: 768px) {
+    @media screen and (min-width: $min-width) {
+        @content;
+    }
+}
+
+// PCサイズ
+@mixin pc($min-width: 1024px) {
+    @media screen and (min-width: $min-width) {
+        @content;
+    }
+}

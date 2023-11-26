@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Count up!</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <h1 class="header__ttl">Count up!</h1>
+      <div class="header__box">
+        <p id="header__record" class="header__record">Best Record : <span class="header__recordSpan">0</span></p>
+        <p id="header__timer" class="header__timer">Time : <span class="header__timerSpan">0</span></p>
+      </div>
+    </header>
+    <main class="main">
+      <section id="game" class="game">
+        <div class="game__container">
+          <div id="game__numbers" class="game__numbers"></div>
+          <div id="game__startScene" class="game__startScene">
+            <p class="game__finishTime"></p>
+            <div class="game__btn">START</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

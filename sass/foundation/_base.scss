@@ -1,0 +1,16 @@
+//各ファイルは必ず登録済みの変数を最初に読み込みます
+//as *で読み込みファイル名を省略することができます
+@use "../global" as *;
+
+.wrapper {
+    height: 100vh;
+    color: #f2d8d8;
+    background: #5c8984;
+    font-size: 1rem;
+    font-family: $dot;
+    letter-spacing: 0.1em;
+
+    @include tab {
+        font-size: 2rem;
+    }
+}
