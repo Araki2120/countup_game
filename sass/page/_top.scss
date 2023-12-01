@@ -2,7 +2,6 @@
 //as *で読み込みファイル名を省略することができます
 @use "../global" as *;
 
-
 .game {
     display: flex;
     flex-direction: column;
@@ -26,7 +25,7 @@
         gap: 1px;
     }
 
-    //後から生成するカードたち
+    //後から生成するカード
     &__number {
         display: flex;
         justify-content: center;

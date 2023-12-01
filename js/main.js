@@ -1,4 +1,3 @@
-// リプレイ時の問題修正後のコードです。（修正前は「main2.js」ファイルに残しております。）
 let countNum;
 let cardArray;
 let time;
@@ -63,7 +62,7 @@ const replay = () => {
 const timerFunc = () => {
     time++;
 
-    //ここからお試し 表示する数字を秒にして、小数点第一位まで常に表示
+    //表示する数字を秒にして、小数点第一位まで常に表示
     const sec = time / 10;
     timerSpan.textContent = sec.toFixed(1);
 };
